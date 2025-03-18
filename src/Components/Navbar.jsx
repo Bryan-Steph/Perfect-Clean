@@ -21,12 +21,12 @@ function Navbar(){
                         {!isMenuOpen ? 
                         <img id='menu-btn' onClick={() => toggleMenu()} className='w-5 h-8 sm:hidden ml-40  mt-5 ' src={Menu} alt="" />
                         :
-                          <span onClick={() => toggleMenu()} className='w-5  sm:hidden ml-40  text-4xl  text-blue-600'>X</span>
+                          <span onClick={() => toggleMenu()} className='w-5  sm:hidden ml-40 mt-5 text-4xl  text-blue-600'>X</span>
                       }
                         
                         </div>
                         <div id='main-menu' className={
-                            'flex flex-col md:flex-row mt-2 gap-6 backdrop-blur-md bg-white/80 md:bg-transparent rounded-lg items-center  ' + `${isMenuOpen? ' flex' : 'md:flex hidden'}` 
+                            'flex flex-col md:flex-row mt-10 gap-6 backdrop-blur-md bg-white/80 md:bg-transparent rounded-lg items-center  ' + `${isMenuOpen? ' flex' : 'md:flex hidden'}` 
                         }>
                           <li className='font-bold text-xl hover:text-blue-500 hover:transition-colors ' ><a href="">Home</a></li>
                           <li className='font-bold text-xl hover:text-blue-500 hover:transition-colors ' ><a href="">About</a></li>
