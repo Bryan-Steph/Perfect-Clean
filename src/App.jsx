@@ -1,4 +1,3 @@
-import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './Components/Hero.jsx'
 import Experience from './Components/Experience.jsx'
