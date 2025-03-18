@@ -19,9 +19,9 @@ function Navbar(){
                         <div className='flex '>
                         <img className='sm:mr-20 mr-0 h-10 items-center sm:mt-3 mt-4' src={Logo} alt="" />
                         {!isMenuOpen ? 
-                        <img id='menu-btn' onClick={() => toggleMenu()} className='w-5 h-8 sm:hidden ml-55 m-2 mt-5 ' src={Menu} alt="" />
+                        <img id='menu-btn' onClick={() => toggleMenu()} className='w-5 h-8 sm:hidden ml-50  mt-5 ' src={Menu} alt="" />
                         :
-                          <span onClick={() => toggleMenu()} className='w-5  sm:hidden ml-55 m-2 text-4xl  text-blue-600'>X</span>
+                          <span onClick={() => toggleMenu()} className='w-5  sm:hidden ml-50  text-4xl  text-blue-600'>X</span>
                       }
                         
                         </div>
