@@ -15,12 +15,12 @@ import { useState } from 'react';
                 <div className='md:w-1/2 w-full'>
             
                     <div className='sm:ml-20 text-center sm:text-start mt-30'>
-                        <div className='flex mt-10 md:mt-50'> 
-                            <img className='ml-30 sm:mr-2 sm:ml-0' src={Check} alt="" />
+                        <div className='flex mt-10 md:mt-80'> 
+                            <img className='ml-25 sm:mr-2 sm:ml-0' src={Check} alt="" />
                             <p className='ml-1 text-white sm:text-gray-400 '>ESTABLISHED SINCE 2020</p>
                         </div>
-                    <h1 className='mt-5 font-bold text-5xl capitalize'>  A New solution for Your
-                         home cleaning</h1>
+                    <h1 className='mt-5 font-bold text-5xl capitalize md:w-3/4'>  A New solution for Your
+                         home cleaning Needs</h1>
                     <p className='text-gray-800 mt-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
                         Deleniti saepe dignissimos non quia magnam, facere distinctio?</p>
                         <button className=' h-10 w-50 mt-5 rounded-lg  text-white bg-blue-400 
