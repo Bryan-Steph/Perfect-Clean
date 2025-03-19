@@ -5,17 +5,17 @@ function Services(){
 
     return (
         <>
-        <section className="mt-10">
-            <div className="sm:flex">
-                <h1 className=" sm:w-1/2 font-bold text-4xl mx-5 sm:mx-0'">Always Provide The Best Service</h1>
+        <section className="mt-10 bg-[#dcfbd233]">
+            <div className="sm:flex sm:justify-between ">
+                <h1 className=" md:w-150 font-bold  text-5xl mx-0 ml-5 sm:ml-25 leading-tight sm:mx-0">Always Provide The Best Service</h1>
                 <div className="sm:w-1/2">
-                <p className="text-orange-500 font-semibold text-3xl mx-5 my-10 sm:my-0">Our Services</p>
+                <p className="text-orange-500  font-semibold text-3xl mx-5 my-10 sm:my-0">Our Services</p>
                 <p className="sm:mt-5 mx-5">Lorem ipsum dolor sit amet 
                     consectetur adipisicing elit. Autem modi pariatur sed fuga tempora eius.</p>
                 </div>
                
             </div>
-            <div className='sm:flex mt-5'>
+            <div className='sm:flex sm:mx-15 mt-5'>
                 <div className='mx-5 text-center my-5 border-3 border-gray-200 rounded-lg shadow-2xl hover:text-white
                 hover:transition-all hover:scale-105 
                 hover:left-0 hover:bottom-0 hover:bg-gradient-to-r hover:from-blue-200 hover:to-blue-400 hover:rounded-b-xl  '>

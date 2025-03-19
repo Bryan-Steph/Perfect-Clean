@@ -33,19 +33,19 @@ function OurWork() {
   };
 
   return (
-    <section className="mt-10">
-      <div className="sm:flex">
-        <h1 className="sm:w-1/2 font-bold text-4xl mx-5">Our Past Works</h1>
-        <div className="sm:w-1/2">
-          <p className="text-black text-xl mx-5 my-10 sm:my-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem modi pariatur sed fuga tempora eius.
-          </p>
-          <p className="sm:mt-5 mx-5 text-blue-500"> <a href="">Peek at our professional Work-folio</a></p>
-        </div>
-      </div>
+    <section className="mt-0">
+               <div className="sm:flex  sm:justify-between bg-[#dcfbd233]">
+                <h1 className=" md:w-150 font-bold  text-5xl mx-0 ml-5 sm:ml-25 leading-tight mt-10 sm:mx-0">Our Past Works</h1>
+                <div className="sm:w-1/2">
+                <p className="  text-xl mx-5 my-10 sm:my-0 pt-10">Explore our portfolio to see the quality
+                   and range of services we have provided to our satisfied clients.</p>
+                <p className="sm:mt-5 text-blue-400 mt-10 mx-5"><a href="">Peek at our professional Work-folio</a> </p>
+                </div>
+               
+            </div>
 
       {/* Slider Container */}
-      <div className="relative w-full max-w-4xl mx-auto overflow-hidden rounded-lg shadow-lg mt-10">
+      <div className="relative w-full min-w-4xl mx-auto overflow-hidden rounded-lg shadow-lg mt-10">
         {/* Images */}
         {images.map((image, index) => (
           <div

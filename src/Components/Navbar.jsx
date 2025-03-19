@@ -22,7 +22,7 @@ function Navbar() {
   };
 
   return (
-    <div className="sm:w-1/2 w-full sm:mt-10">
+    <div className="sm:w-1/2 w-full sm:mt-10 ">
       <ul
         className={`fixed sm:-top-15 -top-10 backdrop-blur-md rounded-full border-white  z-50 sm:mt-55 mt-20 sm:ml-20
         w-full sm:w-150 h-20 transition-all duration-300 flex items-center justify-between px-6
