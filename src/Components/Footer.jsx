@@ -14,9 +14,8 @@ function Footer(){
                 <p className="sm:mt-5 mx-5">frusteveakonnibryan@gmail.com</p>
                 </div>
                 </div>
-                <p className='text-center font-bold mt-10 bg-blue-400 text-3xl
-                text-white'>TraitzTech</p>
-                <p className='mt-10'></p>
+                <p className='text-center sm:mb-5 p-4 mt-10 bg-blue-400 text-3xl
+                text-white'> © 2025 Traitz Tech.</p>
             </section>   
         </>)
 }

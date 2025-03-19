@@ -8,6 +8,7 @@ import About from './Components/About.jsx'
 import Footer from './Components/Footer.jsx'
 import Header from './Components/Header.jsx'
 import Navbar from './Components/Navbar.jsx'
+import Slider from './Components/Slider.jsx'
 
 
 
@@ -18,6 +19,8 @@ function App() {
     <Navbar />
     <Hero />
     <Experience />
+    {/* <Slider /> */}
+
     <Services />
     <OurWork />
     <Testimonial />
