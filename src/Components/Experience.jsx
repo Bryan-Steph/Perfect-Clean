@@ -6,13 +6,11 @@ function Experience(){
 
     return(
         <>
-          <div className='sm:flex'>
-            <div className='mx-20'>
-                <img src={Eximage} className='' />
-            </div>
-            <div className=' sm:w-1/4 mt-20 sm:ml-50'>
-                <h1 className='font-bold text-4xl mx-5 sm:mx-0'>We are very experienced in cleaning services</h1>
-                <p className='mt-5 mx-5 sm:mx-0'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          <div className='sm:flex flex-row-reverse'>
+           
+            <div className=' sm:w-2/4 mt-20 sm:mr-50'>
+                <h1 className='font-bold text-4xl mx-5 order-1 sm: sm:mx-0'>We are very experienced in cleaning services</h1>
+                <p className='mt-5 mx-5 sm:mx-0 w-3/4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                      Vitae eveniet rem cupiditate, alias laudantium corrupti explicabo!</p>
                      <div className='flex mt-3 mx-5 sm:mx-0'> 
                         <img src={check} alt="" />
@@ -38,6 +36,9 @@ function Experience(){
                      </div>
                      <p className='mt-2 mx-5 sm:mx-0'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                          Alias est quia corporis repellendus iure rerum quis.</p>
+            </div>
+            <div className='mx-0'>
+                <img src={Eximage} className='' />
             </div>
           </div>
         </>
