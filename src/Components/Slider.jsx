@@ -46,7 +46,7 @@ const Slider = () => {
       {/* Left Arrow */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 text-4xl bg-gray-900 text-white px-4 py-2 rounded-full z-10"
+        className="absolute left-4 text-4xl bg-blue-400 text-white px-4 py-2 rounded-full z-10"
       >
         ←
       </button>
@@ -69,7 +69,7 @@ const Slider = () => {
       {/* Right Arrow */}
       <button
         onClick={nextSlide}
-        className="absolute right-4 text-4xl bg-gray-900 text-white px-4 py-2 rounded-full z-10"
+        className="absolute right-4 text-4xl bg-blue-400 text-white px-4 py-2 rounded-full z-10"
       >
         →
       </button>
