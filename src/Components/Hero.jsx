@@ -26,7 +26,7 @@ import { useState } from 'react';
         A New solution for Your home cleaning Needs
       </h1>
       <p className="text-gray-800 mt-5">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+        Lorem ipsum dolor sit amet consectetur, adipisicing  <br />
         Deleniti saepe dignissimos non quia magnam, facere distinctio?
       </p>
 

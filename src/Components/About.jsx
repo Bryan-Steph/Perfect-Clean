@@ -5,9 +5,9 @@ function About(){
 
     return(<>
             <div>
-                <div className=' sm:h-60 h-100 bg-[url(./assets/images/Vector.png)] bg-no-repeat bg-cover '>
-                    <h1 className='mx-5 text-4xl font-bold pt-10'>Are You Ready To Work With Us Now?</h1>
-                    <p className='mt-5 mx-5'>What do think after seeing the good response from our 
+                <div className=' sm:h-140 bg-[#dcfbd233] h-130 bg-[url(./assets/images/Vector.png)] bg-no-repeat bg-cover '>
+                    <h1 className='mx-10 md:ml-20 text-5xl font-bold pt-10 md:w-150 '>Are You Ready To Work With Us Now?</h1>
+                    <p className='mt-5 md:ml-20 mx-5'>What do think after seeing the good response from our 
                         previous customers
                     </p>
                     <div className='sm:flex gap-5 mt-5 '>

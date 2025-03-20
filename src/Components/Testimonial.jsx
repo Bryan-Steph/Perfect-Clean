@@ -9,7 +9,7 @@ function Testimonial(){
         <section className="mt-10 ">
             <div className="sm:flex sm:justify-between">
                 <h1 className=" md:w-150 font-bold  text-5xl mx-0 ml-5 sm:ml-25 leading-tight mt-10 sm:mx-0"><span
-                 className="text-blue-500 font-extrabold text-6xl font-sans">250 +</span>Satisfied Clients 
+                 className="text-blue-500 font-extrabold text-6xl font-sans w-full ">250 +</span>Satisfied Clients 
                 With Our Services</h1>
                 <div className="sm:w-1/2">
                 <p className="text-orange-500 font-semibold md:ml-30 text-3xl pt-10 mx-5 my-10 sm:my-0">Testimonials</p>
