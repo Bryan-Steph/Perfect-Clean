@@ -9,6 +9,7 @@ import Footer from './Components/Footer.jsx'
 import Header from './Components/Header.jsx'
 import Navbar from './Components/Navbar.jsx'
 import Slider from './Components/Slider.jsx'
+import Form from './Components/Form.jsx'
 
 
 
@@ -26,6 +27,7 @@ function App() {
     <About />
     <Footer />
     {/* <Header /> */}
+    {/* <Form /> */}
     </>
   )
 }

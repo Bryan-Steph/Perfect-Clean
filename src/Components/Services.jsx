@@ -6,6 +6,7 @@ function Services(){
     return (
         <>
         <section className="mt-10 bg-[#dcfbd233]">
+            
             <div className="sm:flex sm:justify-between ">
                 <h1 className=" md:w-150 font-bold  text-5xl mx-0 ml-5 sm:ml-25 leading-tight sm:mx-0">Always Provide The Best Service</h1>
                 <div className="sm:w-1/2">

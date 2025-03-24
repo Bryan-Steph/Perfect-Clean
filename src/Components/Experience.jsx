@@ -1,5 +1,9 @@
 import check from '../assets/images/checkblue.png'
 import Eximage from '../assets/images/experience-img.png'
+// motion
+import {motion} from 'framer-motion';
+// variants
+import {fadeIn} from '../variants'
 
 function Experience(){
 
@@ -8,7 +12,7 @@ function Experience(){
         <>
           <div className='sm:flex flex-row-reverse'>
            
-            <div className=' sm:w-2/4 mt-20 sm:mr-50'>
+            <div className=' sm:w-2/4 mt-20 sm:mr-'>
                 <h1 className='font-bold text-4xl mx-5 order-1 sm: sm:mx-0 sm:1/4'>We are very experienced in cleaning services</h1>
                 <p className='mt-5 mx-5 sm:mx-0 w-3/4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                      Vitae eveniet rem cupiditate, alias laudantium corrupti explicabo!</p>
@@ -56,7 +60,7 @@ function Experience(){
           }
         `}
       </style>
-                <img src={Eximage} className='md:block  object-cover desktop-bounce' />
+                <img src={Eximage} className='md:block md:mr-10 object-cover desktop-bounce' />
             </div>
           </div>
         </>
